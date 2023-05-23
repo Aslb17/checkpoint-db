@@ -33,9 +33,3 @@ VALUES (1, 1);
 
 INSERT INTO offer_answers (offer_id, candidate_id)
 VALUES (2, 2);
-
-SELECT * FROM offer;
-SELECT * FROM offer WHERE city = 'London';
-SELECT candidate.* FROM candidate
-JOIN offer_answers ON candidate.id = offer_answers.candidate_id
-WHERE offer_answers.offer_id = 1;
