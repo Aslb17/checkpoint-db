@@ -29,7 +29,7 @@ VALUES ('XYZ Industries', 'A global manufacturing company with a focus on sustai
 INSERT INTO offer (title, job_description, city, company_id)
 VALUES ('Software Engineer', 'We are hiring a software engineer with experience in Java and Python.', 'New York', 1);
 
-INSERT INTO offer (id, title, job_description, city, company_id)
+INSERT INTO offer (title, job_description, city, company_id)
 VALUES ('Sales Representative', 'Join our sales team and help us expand our customer base.', 'London', 2);
 
 
@@ -37,8 +37,5 @@ VALUES ('Sales Representative', 'Join our sales team and help us expand our cust
 INSERT INTO offer_answers (offer_id, candidate_id)
 VALUES (1, 1);
 
-INSERT INTO offer_answers (id, offer_id, candidate_id)
+INSERT INTO offer_answers (offer_id, candidate_id)
 VALUES (1, 2);
-
-INSERT INTO offer_answers (id, offer_id, candidate_id)
-VALUES (2, 2);

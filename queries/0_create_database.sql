@@ -19,13 +19,13 @@ CREATE TABLE candidate (
 CREATE TABLE company (
 	id integer PRIMARY KEY AUTOINCREMENT,
 	name varchar,
-	decription text
+	description text
 );
 
 CREATE TABLE offer (
 	id integer PRIMARY KEY AUTOINCREMENT,
 	title varchar,
-	job_decription text,
+	job_description text,
 	city varchar,
 	company_id int
 );
